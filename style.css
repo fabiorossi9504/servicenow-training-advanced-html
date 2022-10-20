@@ -1,0 +1,139 @@
+body {
+    background-color: bisque;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-image: url('https://picsum.photos/1840/400');
+    width: 100%;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 5px brown, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+a:hover {
+    transition: .5s;
+    color: #A31925;
+}
+
+nav {
+    margin: 15px;
+    height: 30px;
+    background-color: beige;
+    text-align: center;
+    margin-bottom: 50px;
+    border: solid 3px brown;
+}
+
+label {
+    margin: 10px;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+.card-esp {
+    color: white;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    background-color: brown;
+    margin-top: 50px;
+    border: solid 4px burlywood;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 5px 1px 15px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 1px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-pas {
+    color: white;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    margin-top: 50px;
+    border: solid 4px burlywood;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 5px 1px 15px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 1px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-img {
+    background-image: url('https://picsum.photos/300');
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    border: solid 2px burlywood;
+}
+
+section {
+    margin: auto;
+    border: solid 3px brown;
+    background-color: beige;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article {
+    display: inline-block;
+    margin-inline: 100px;
+}
+
+footer {
+    margin: 15px;
+    border: solid 3px brown;
+    margin-top: 20px;
+    height: 300px;
+    background-color: beige;
+}
+
+.titles {
+    background-color: burlywood;
+    height: 40px;
+    text-align: center;
+}
+
+.footer-title {
+    margin: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-esp {
+        display: block;
+        width: 150px;
+    }
+
+    .card-pas {
+        display: block;
+        width: 150px;
+        height: 250px;
+    }
+
+    .card-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    a {
+        margin: 15px;
+    }
+
+    .footer-title {
+        margin: 15px;
+    }
+
+}
